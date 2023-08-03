@@ -1,0 +1,49 @@
+.capa{
+    text-align: center;
+    font-weight: bold;
+}
+
+.capa img{
+    max-width: 300px;
+}
+
+.capa h1{
+    margin-top: -10px;
+}
+
+#tTitulo{
+    color: #36A5E2;
+}
+
+#sSites{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sSites div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+#sSites h2{
+    text-align: center;
+}
+
+#sSites video{
+    width: 400px;
+    border-radius: 4px;
+}
+
+@media(max-width: 600px)
+{
+    #sSites video{
+        width: 100%;
+    }
+
+    .tamanho{
+        width: 100%;
+        text-align: center;
+    }
+}
