@@ -48,6 +48,12 @@
     font-weight: bold;
 }
 
+#sSites img{
+    width: 470px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
 #sCapa{
     text-align: center;
 }
@@ -61,6 +67,10 @@
     .tamanho{
         width: 100%;
         text-align: center;
+    }
+
+    #sSites img{
+        width: 100%;
     }
 
     
