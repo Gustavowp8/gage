@@ -23,7 +23,7 @@
 }
 
 #sSites div{
-    flex: 1 1 200px;
+    flex: 1 1 300px;
     margin: 10px;
 }
 
@@ -46,4 +46,6 @@
         width: 100%;
         text-align: center;
     }
+
+    
 }
