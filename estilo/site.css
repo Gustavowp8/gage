@@ -36,6 +36,22 @@
     border-radius: 4px;
 }
 
+#sSites p{
+    text-align: left;
+}
+
+#sSites a{
+    background: #36A5E2;
+    padding: 10px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#sCapa{
+    text-align: center;
+}
+
 @media(max-width: 600px)
 {
     #sSites video{
