@@ -1,0 +1,51 @@
+.caixaUm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.caixaTres img{
+    width: 100px;
+}
+
+.caixaDois{
+    width: 400px;
+    height: 400px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.caixaTres {
+    text-align: center;
+    align-items: center;
+}
+
+.caixaTres h1{
+    color: #36A5E2;
+    margin-bottom: -5px;
+}
+
+.caixaTres p{
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.caixaTres a{
+    font-weight: bold;
+    font-size: 10pt;
+    background: #36A5E2;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media(max-width: 600px){
+
+    .caixaDois{
+        width: 350px;
+        height: 350px;
+    }
+}
