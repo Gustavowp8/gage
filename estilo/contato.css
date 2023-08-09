@@ -1,0 +1,71 @@
+
+.caixaUm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.caixaDois{
+    width: 400px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.caixaTres div{
+    margin-top: 10px;
+}
+
+#nNome{
+    width: 98%;
+    font-weight: bold;
+    font-size: 10pt;
+    height: 30px;
+}
+
+#tMail{
+    width: 98%;
+    font-weight: bold;
+    font-size: 10pt;
+    height: 30px;
+}
+
+#tTelefone{
+    width: 98%;
+    font-weight: bold;
+    font-size: 10pt;
+    height: 30px;
+}
+
+#tMsg{
+    width: 99%;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#btnEnvia{
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    background: #36A5E2;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.tTopo{
+    text-align: center;
+}
+
+.tTopo h2{
+    
+}
+
+.tTopo img{
+    width: 50px;
+    margin-bottom: -20px;
+}
