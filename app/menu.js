@@ -4,3 +4,11 @@ function toggleMenu(){
     const nav = document.getElementById('nav');
     nav.classList.toggle('active')
 }
+
+function aviso(){
+    window.location.assign("sevicos.html")
+}
+
+function contato(){
+    window.location.assign("contatos.html")
+}
