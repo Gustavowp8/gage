@@ -12,3 +12,11 @@ function aviso(){
 function contato(){
     window.location.assign("contatos.html")
 }
+
+function abreredessociais(){
+    redes.style.display='block'
+}
+
+function fecharredes(){
+    redes.style.display='none'
+}

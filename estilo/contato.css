@@ -57,6 +57,18 @@
     color: #ffffff;
 }
 
+#btnSocial{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #36A5E2;
+    color: #36A5E2;
+}
+
 .tTopo{
     text-align: center;
 }
@@ -68,4 +80,74 @@
 .tTopo img{
     width: 50px;
     margin-bottom: -20px;
+}
+
+/*Janela popup*/
+
+.redes{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.redesUm{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.redesTres{
+    background: #ffffff;
+    border: 1px solid #36A5E2;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.redesTres img{
+    width: 15px;
+}
+
+.redesTres a{    
+}
+
+.redesTres div{
+    border: 1px solid #36A5E2;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.redesTres div:hover{
+    transition: 1s;
+    background: #36a6e228;
+    color: #ffffff;
+}
+
+.redesTres button{
+    margin-top: 10px;
+    background: rgba(255, 0, 0, 0.774);
+    border: 1px solid #ffffff;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+@media(max-width: 600px){
+    .redesUm{
+        width: auto;
+        margin: 20px;
+        margin-top: 50%;
+    }
 }
