@@ -42,6 +42,27 @@
     border-radius: 5px;
 }
 
+#tituloServicos{
+    text-align: center;
+}
+
+.tAreaLinlUm{
+    max-width: 959px;
+    margin: 0 auto;
+}
+
+.tAreaLinlDois{
+    text-align: center;
+}
+
+.tAreaLinlDois a{
+    background: #ffffff;
+}
+
+.tAreaLinlDois img{
+    max-width: 100px;
+}
+
 @media(max-width: 600px){
 
     .caixaDois{
